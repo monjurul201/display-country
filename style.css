@@ -1,0 +1,22 @@
+.country{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    overflow: hidden;
+}
+#countries{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:30px;
+}
+.country-name{
+    color: orange;
+    font-size: 45px;
+    
+}
+#countryDetails img{
+    width: 300px;
+
+}
